@@ -1,0 +1,10 @@
+{
+  "lp_instances": 144,
+  "max_lp_error": 7.771561172376096e-16,
+  "path_enumeration_comparisons": 768,
+  "max_path_error": 1.2212453270876722e-15,
+  "witness_comparisons": 144,
+  "max_witness_error": 4.440892098500626e-16,
+  "mds_subsets": 70,
+  "status": "passed"
+}

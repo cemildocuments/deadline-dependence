@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "checked_csv_rows": {
+    "benchmark.csv": 1458,
+    "illustration.csv": 18,
+    "budget_frontiers.csv": 3198,
+    "radius_sensitivity.csv": 123,
+    "monte_carlo.csv": 540,
+    "monte_carlo_summary.csv": 27,
+    "search_scaling.csv": 252,
+    "holdout.csv": 200
+  },
+  "probability_relative_tolerance": 1e-10,
+  "probability_absolute_tolerance": 1e-13,
+  "integer_fields": "exact comparison",
+  "timing_columns": "machine-dependent"
+}

@@ -1,0 +1,100 @@
+{
+  "grid": [
+    {
+      "k": 2,
+      "n": 81,
+      "gain_median": 0.18473118279569867,
+      "gain_min": -2.220446049250313e-16,
+      "gain_max": 0.8992913170731708,
+      "nominal_optimism_median": 14.055261522727646,
+      "nominal_optimism_max": 10743.124302299399,
+      "positive_optimism_median": 1.0000000000000002,
+      "positive_optimism_max": 2.0,
+      "nominal_cost_median": 3.4591684606238076,
+      "nominal_cost_max": 159.7949561687643,
+      "single_gain_median": 0.11069285673014861,
+      "single_gain_max": 0.7906258683902754
+    },
+    {
+      "k": 4,
+      "n": 81,
+      "gain_median": 0.3691366907134337,
+      "gain_min": 0.0,
+      "gain_max": 0.7344824267142495,
+      "nominal_optimism_median": 3.4437605852539064,
+      "nominal_optimism_max": 209.3636907333064,
+      "positive_optimism_median": 1.0,
+      "positive_optimism_max": 1.9886010628658073,
+      "nominal_cost_median": 1.5509894531868997,
+      "nominal_cost_max": 27.766889907692796,
+      "single_gain_median": 0.13939469842806596,
+      "single_gain_max": 0.705058701799183
+    },
+    {
+      "k": 6,
+      "n": 81,
+      "gain_median": 0.1380758007958175,
+      "gain_min": 0.0,
+      "gain_max": 0.6413179439447795,
+      "nominal_optimism_median": 1.2720297224047328,
+      "nominal_optimism_max": 10.034090741524922,
+      "positive_optimism_median": 1.072864904711091,
+      "positive_optimism_max": 1.962638748828658,
+      "nominal_cost_median": 1.0727582034996752,
+      "nominal_cost_max": 5.612685862515533,
+      "single_gain_median": 0.0,
+      "single_gain_max": 0.12338721109869766
+    }
+  ],
+  "aggregate_gain_median": 0.24584266881320882,
+  "aggregate_improved": 213,
+  "mc_groups": 27,
+  "mc_covered": 26,
+  "mc_max_absolute_error": 0.0004224524378927119,
+  "mc_max_standardized_error": 2.469040139634056,
+  "certification": [
+    {
+      "target": 0.01,
+      "scenarios": 81,
+      "nominal_feasible": 76,
+      "nominal_unsupported": 51,
+      "positive_unsupported": 9,
+      "robust_feasible": 60,
+      "extra_packets_median": 0.0,
+      "extra_packets_max": 1
+    },
+    {
+      "target": 0.05,
+      "scenarios": 81,
+      "nominal_feasible": 81,
+      "nominal_unsupported": 19,
+      "positive_unsupported": 9,
+      "robust_feasible": 75,
+      "extra_packets_median": 0.0,
+      "extra_packets_max": 5
+    },
+    {
+      "target": 0.1,
+      "scenarios": 81,
+      "nominal_feasible": 81,
+      "nominal_unsupported": 21,
+      "positive_unsupported": 6,
+      "robust_feasible": 80,
+      "extra_packets_median": 0.0,
+      "extra_packets_max": 1
+    }
+  ],
+  "heuristic_grid_optimal": 243,
+  "heuristic_holdout_optimal": 200,
+  "heuristic_holdout_max_gap": 4.440892098500626e-16,
+  "evaluator_median_us": {
+    "8": 0.860400905366987,
+    "16": 1.904150121845305,
+    "32": 5.5281256209127605,
+    "64": 17.28647475829348,
+    "128": 64.97917493106797,
+    "256": 251.97397553711198,
+    "512": 995.8812494005542,
+    "1024": 3948.8500005973037
+  }
+}

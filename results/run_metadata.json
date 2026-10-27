@@ -1,0 +1,44 @@
+{
+  "config": {
+    "name": "deadline-dependence-v1",
+    "seed": 20261027,
+    "horizon": 8,
+    "budget": 8,
+    "source_packets": [
+      2,
+      4,
+      6
+    ],
+    "erasure_probabilities": [
+      0.02,
+      0.1,
+      0.2
+    ],
+    "mean_burst_lengths": [
+      1.25,
+      3.0,
+      8.0
+    ],
+    "dependence_radius": 1.0,
+    "mc_blocks_per_seed": 100000,
+    "mc_seeds": 20,
+    "workers": 10,
+    "illustration": {
+      "pa": 0.1,
+      "pb": 0.2,
+      "la": 4.0,
+      "lb": 2.0
+    }
+  },
+  "python": "3.12.1",
+  "numpy": "1.26.3",
+  "platform": "Darwin",
+  "machine": "arm64",
+  "cpu_count": 12,
+  "workers": 10,
+  "elapsed_seconds": 20.251383833005093,
+  "scenarios": 243,
+  "schedules_per_scenario": 12870,
+  "schedule_instances": 3127410,
+  "mc_blocks": 54000000
+}

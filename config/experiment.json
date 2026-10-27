@@ -1,0 +1,14 @@
+{
+  "name": "deadline-dependence-v1",
+  "seed": 20261027,
+  "horizon": 8,
+  "budget": 8,
+  "source_packets": [2, 4, 6],
+  "erasure_probabilities": [0.02, 0.1, 0.2],
+  "mean_burst_lengths": [1.25, 3.0, 8.0],
+  "dependence_radius": 1.0,
+  "mc_blocks_per_seed": 100000,
+  "mc_seeds": 20,
+  "workers": 10,
+  "illustration": {"pa": 0.1, "pb": 0.2, "la": 4.0, "lb": 2.0}
+}

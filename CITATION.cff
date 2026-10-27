@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "Please cite this software when using the reliability evaluator or reproducing the experiments."
+type: software
+title: "Deadline Reliability Without Independence: Experiment Package"
+version: 1.0.0
+date-released: 2026-10-27
+license: MIT
+authors:
+  - family-names: Chen
+    given-names: Lei
+    orcid: "https://orcid.org/0000-0002-3919-8056"
+    affiliation: "School of Computing, Georgia Southern University"
+    email: "lchen@georgiasouthern.edu"
+  - family-names: Yavas
+    given-names: Cemil Emre
+    orcid: "https://orcid.org/0009-0006-9552-1731"
+    affiliation: "School of Computing, Georgia Southern University"
+  - family-names: Zhang
+    given-names: Yue
+    orcid: "https://orcid.org/0009-0004-9337-6839"
+    affiliation: "Electrical and Computer Engineering, Georgia Southern University"
+  - family-names: Mead
+    given-names: Nancy R.
+    orcid: "https://orcid.org/0000-0002-2919-086X"
+    affiliation: "Software and Societal Systems Department, Carnegie Mellon University"
+abstract: >-
+  Exact finite-horizon failure envelopes and reproducible scheduling experiments
+  for two binary Markov erasure paths with specified conditional marginal laws
+  and unknown causal dependence. Includes exhaustive optimization, a packet-exchange
+  heuristic, independent optimization checks, and Monte Carlo validation.
+keywords:
+  - multipath communication
+  - deadline reliability
+  - erasure coding
+  - robust scheduling
+  - causal coupling
